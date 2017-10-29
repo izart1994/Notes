@@ -1,0 +1,31 @@
+Know Your(GIT BASH) System
+
+uname                      Print System Information
+who                        Show Who Is Logged On
+cal                        Displays Calculator
+date                       Print System Date And Time
+df                         Report File System Disk Space Usage
+du                         Estimate File Space Usage
+ps                         Displays Information Of Current Active Processes
+kill                       Allows To Kills Process
+clear                      Clear The Terminal Screen
+cat /proc/cpuinfo          Cpuinfo Display CPU Information
+cat /proc/meminfo          Display Memory Information
+
+Compression
+tar                        Store and Extract Files From An Archive File
+gzip                       Compress Or Decompress Named Files
+
+Network
+ifconfig                   To Config Network Interface
+ping                       Check Other System are reachable from The Host System
+wget                       Download Files From Network
+ssh                        Remote Login Program
+ftp                        Download/Upload Files From/To Remote System
+last                       Displays List Of Last Logged In User
+telnet                     Used To Communicate With Another Host Using THe Telnet Protocol
+
+Searching Files
+grep                       Search Files(s) For Specific Text
+find                       Search For Files In A Directory Hierarchy
+locate                     Find Files By Name
