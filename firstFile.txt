@@ -22,7 +22,7 @@ git init -- first step in git folder (initialize git folder)
 git status -- status in git folder
 git add -- Insert file into staging area
 git add * -- Insert all file to staging area
-git commit -m -- Commit staging area files
+git commit -m "commit" -- Commit staging area files
 git config --list -- Get list of user commit
 git config user.name "name" --	
 git config user.email "email" --
