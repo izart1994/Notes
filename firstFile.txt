@@ -1,50 +1,50 @@
 //GITHUB Cmd//
 -----------------------------------------------------------------
 
-pwd				                      know where we are now in git cmd
-ls                              List Of Directory Contents
-ls -la				                  Details of the files and folders
+pwd -- know where we are now in git cmd
+ls -- List Of Directory Contents
+ls -la -- Details of the files and folders
 
 --------------------------------
-rm "file name"			            Remove File in folder/directory
-rmdir "file name"		            Remove empty folder
-rm -rf "file name"		          Remove folder with file in it
+rm "file name" -- Remove File in folder/directory
+rmdir "file name" -- Remove empty folder
+rm -rf "file name" -- Remove folder with file in it
 
 --------------------------------
-mkdir "folder name"		          Make a new directory/folder
+mkdir "folder name" -- Make a new directory/folder
 
 --------------------------------
-cp				                      Copy Files or Directory //
-mv                            	Move Files //
+cp -- Copy Files or Directory //
+mv -- Move Files //
 				
 --------------------Start GIT in File-----------------------------
-git init			                  first step in git folder (initialize git folder)
-git status			                status in git folder
-git add				                  Insert file into staging area
-git add *			                  Insert all file to staging area
-git commit -m			              Commit staging area files
-git config --list		            Get list of user commit
-git config user.name "name"	
-git config user.email "email"
+git init -- first step in git folder (initialize git folder)
+git status -- status in git folder
+git add -- Insert file into staging area
+git add * -- Insert all file to staging area
+git commit -m -- Commit staging area files
+git config --list -- Get list of user commit
+git config user.name "name" --	
+git config user.email "email" --
 
-git branch			                Show list of branch
-git branch "branch_name"	      Create new branch
-git checkout "branch_name"	    Go to existing branch
-git checkout -b "branch_name"	  Create branch and switch to new branch
+git branch -- Show list of branch
+git branch "branch_name" -- Create new branch
+git checkout "branch_name" -- Go to existing branch
+git checkout -b "branch_name" -- Create branch and switch to new branch
 
-git log				                  Check commit log
+git log -- Check commit log
 
 --------Notes on Git-----
 After make any changes on file, make sure that u must (git add "filename") then (git commit -m "commit") then push to github
 
 
 ----------------------------Inside VIM-------------------------------
-vim				                     Change content in file		
-:q!				                     Quit without saving the changes in content
-:wq				                     Save changes in content in file
-cat				                     Show folder
+vim -- Change content in file		
+:q! -- Quit without saving the changes in content
+:wq -- Save changes in content in file
+cat -- Show folder
 
 --------------------------Permission-----------------------------
-4 - r
-2 - w
-1 - x
+4 -- r
+2 -- w
+1 -- x
