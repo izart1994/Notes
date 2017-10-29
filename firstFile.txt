@@ -16,13 +16,23 @@ mkdir "folder name" -- Make a new directory/folder
 --------------------------------
 cp -- Copy Files or Directory //
 mv -- Move Files //
+add "filename" -- Add file
 				
 --------------------Start GIT in File-----------------------------
 git init -- first step in git folder (initialize git folder)
 git status -- status in git folder
-git add -- Insert file into staging area
+git add "filename"-- Insert file into staging area
 git add * -- Insert all file to staging area
 git commit -m "commit" -- Commit staging area files
+
+git remote add origin https://github.com/izart1994/____same____.git --add into GITHub online
+____same____ --make a new file in GITHub online
+git remote -v --see what are the current status of the folder
+
+git push origin "branch" --push the local GITHub to online 
+git pull origin "branch" --
+
+--------------------------------
 git config --list -- Get list of user commit
 git config user.name "name" --	
 git config user.email "email" --
